@@ -101,7 +101,7 @@ export default App;
 > ## RefObject
 
 - RefObject는 React에서 DOM 엘리먼트나 컴포넌트에 접근하기 위해 사용되는 객체이다.
-- useRef를 사용하여 생성되며, 위릐 얘시에서는 inputRef를 생성하여 input 엘리먼트에 접근하고, 버튼을 클릭하여 해당 input 엘리먼트에 포커스를 줄 수 있다.
+- useRef를 사용하여 생성되며, 👇🏻아래의 예시에서는 inputRef를 생성하여 input 엘리먼트에 접근하고, 버튼을 클릭하여 해당 input 엘리먼트에 포커스를 줄 수 있다.
 
 ```tsx
 import { useRef } from "react";
