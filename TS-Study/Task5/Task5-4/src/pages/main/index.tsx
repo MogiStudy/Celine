@@ -11,9 +11,7 @@ const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <Button variant="primary" size="small" onClick={natvigateToTodoPage}>
-        Go to TodoPage
-      </Button>
+      <Button onClick={natvigateToTodoPage}>Go to TodoPage</Button>
     </div>
   );
 };

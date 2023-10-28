@@ -1,11 +1,13 @@
-export type ButtonStyle = {
+export type BtnStyle = {
   variant: string;
   size: string;
   children: React.ReactNode;
-  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onClick?: () => void;
 };
 
-const Button: React.FC<ButtonStyle> = ({ variant, size, children, onClick, ...rest }) => {
+type ButtonStyle = Partial<BtnStyle>;
+
+const Button: React.FC<ButtonStyle> = ({ variant, size, children, ...rest }) => {
   return (
     <button
       style={{
